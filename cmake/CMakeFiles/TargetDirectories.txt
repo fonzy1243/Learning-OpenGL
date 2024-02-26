@@ -1,0 +1,9 @@
+C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles/learn_opengl.dir
+C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles/edit_cache.dir
+C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles/rebuild_cache.dir
+C:/Users/Fonzy/learn_opengl/cmake/glfw-3.4/CMakeFiles/edit_cache.dir
+C:/Users/Fonzy/learn_opengl/cmake/glfw-3.4/CMakeFiles/rebuild_cache.dir
+C:/Users/Fonzy/learn_opengl/cmake/glfw-3.4/src/CMakeFiles/glfw.dir
+C:/Users/Fonzy/learn_opengl/cmake/glfw-3.4/src/CMakeFiles/update_mappings.dir
+C:/Users/Fonzy/learn_opengl/cmake/glfw-3.4/src/CMakeFiles/edit_cache.dir
+C:/Users/Fonzy/learn_opengl/cmake/glfw-3.4/src/CMakeFiles/rebuild_cache.dir

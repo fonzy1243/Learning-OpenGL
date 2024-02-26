@@ -1,0 +1,1 @@
+-IC:/Users/Fonzy/learn_opengl/lib/glad/include -IC:/Users/Fonzy/learn_opengl/lib -I"C:/Users/Fonzy/learn_opengl/glfw-3.4/include" -I"C:/Users/Fonzy/learn_opengl/glfw-3.4/src" -I"C:/Users/Fonzy/learn_opengl/cmake/glfw-3.4/src"
