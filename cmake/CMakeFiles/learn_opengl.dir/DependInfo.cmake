@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Fonzy/learn_opengl/lib/glad/src/glad.c" "CMakeFiles/learn_opengl.dir/lib/glad/src/glad.c.obj" "gcc" "CMakeFiles/learn_opengl.dir/lib/glad/src/glad.c.obj.d"
+  "C:/Users/Fonzy/learn_opengl/lib/stb_img_impl.cpp" "CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj" "gcc" "CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj.d"
   "C:/Users/Fonzy/learn_opengl/src/main.cpp" "CMakeFiles/learn_opengl.dir/src/main.cpp.obj" "gcc" "CMakeFiles/learn_opengl.dir/src/main.cpp.obj.d"
   )
 

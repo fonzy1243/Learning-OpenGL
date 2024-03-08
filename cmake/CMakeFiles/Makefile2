@@ -114,12 +114,12 @@ glfw-3.4/src/clean: glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 CMakeFiles/learn_opengl.dir/all: glfw-3.4/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_opengl.dir/build.make CMakeFiles/learn_opengl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_opengl.dir/build.make CMakeFiles/learn_opengl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles --progress-num=23,24,25 "Built target learn_opengl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles --progress-num=23,24,25,26 "Built target learn_opengl"
 .PHONY : CMakeFiles/learn_opengl.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/learn_opengl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/learn_opengl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/learn_opengl.dir/rule
@@ -166,7 +166,7 @@ glfw-3.4/src/CMakeFiles/glfw.dir/clean:
 glfw-3.4/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw-3.4/src/CMakeFiles/update_mappings.dir/build.make glfw-3.4/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw-3.4/src/CMakeFiles/update_mappings.dir/build.make glfw-3.4/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles --progress-num=26 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles --progress-num=27 "Built target update_mappings"
 .PHONY : glfw-3.4/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.

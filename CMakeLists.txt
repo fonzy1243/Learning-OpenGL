@@ -16,6 +16,7 @@ set(GLAD_GL "${CMAKE_SOURCE_DIR}/lib/glad")
 add_subdirectory(.\\glfw-3.4)
 
 file(GLOB_RECURSE sources
+  "${CMAKE_SOURCE_DIR}/lib/stb_img_impl.cpp"
   "${CMAKE_SOURCE_DIR}/src/*.c"
   "${CMAKE_SOURCE_DIR}/src/*.cpp"
   "${GLAD_GL}/src/*.c")

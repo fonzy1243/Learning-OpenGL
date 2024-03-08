@@ -7,6 +7,12 @@
 },
 {
   "directory": "C:/Users/Fonzy/learn_opengl/cmake",
+  "command": "C:/msys64/mingw64/bin/c++.exe  @CMakeFiles/learn_opengl.dir/includes_CXX.rsp  -o CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj -c C:/Users/Fonzy/learn_opengl/lib/stb_img_impl.cpp",
+  "file": "C:/Users/Fonzy/learn_opengl/lib/stb_img_impl.cpp",
+  "output": "CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj"
+},
+{
+  "directory": "C:/Users/Fonzy/learn_opengl/cmake",
   "command": "C:/msys64/mingw64/bin/c++.exe  @CMakeFiles/learn_opengl.dir/includes_CXX.rsp  -o CMakeFiles/learn_opengl.dir/src/main.cpp.obj -c C:/Users/Fonzy/learn_opengl/src/main.cpp",
   "file": "C:/Users/Fonzy/learn_opengl/src/main.cpp",
   "output": "CMakeFiles/learn_opengl.dir/src/main.cpp.obj"

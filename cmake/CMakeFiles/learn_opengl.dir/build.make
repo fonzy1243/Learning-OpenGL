@@ -84,11 +84,26 @@ CMakeFiles/learn_opengl.dir/lib/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/learn_opengl.dir/lib/glad/src/glad.c.s"
 	C:/msys64/mingw64/bin/cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Fonzy/learn_opengl/lib/glad/src/glad.c -o CMakeFiles/learn_opengl.dir/lib/glad/src/glad.c.s
 
+CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj: CMakeFiles/learn_opengl.dir/flags.make
+CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj: CMakeFiles/learn_opengl.dir/includes_CXX.rsp
+CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj: C:/Users/Fonzy/learn_opengl/lib/stb_img_impl.cpp
+CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj: CMakeFiles/learn_opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj -MF CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj.d -o CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj -c C:/Users/Fonzy/learn_opengl/lib/stb_img_impl.cpp
+
+CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Fonzy/learn_opengl/lib/stb_img_impl.cpp > CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.i
+
+CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Fonzy/learn_opengl/lib/stb_img_impl.cpp -o CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.s
+
 CMakeFiles/learn_opengl.dir/src/main.cpp.obj: CMakeFiles/learn_opengl.dir/flags.make
 CMakeFiles/learn_opengl.dir/src/main.cpp.obj: CMakeFiles/learn_opengl.dir/includes_CXX.rsp
 CMakeFiles/learn_opengl.dir/src/main.cpp.obj: C:/Users/Fonzy/learn_opengl/src/main.cpp
 CMakeFiles/learn_opengl.dir/src/main.cpp.obj: CMakeFiles/learn_opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learn_opengl.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/learn_opengl.dir/src/main.cpp.obj"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/learn_opengl.dir/src/main.cpp.obj -MF CMakeFiles/learn_opengl.dir/src/main.cpp.obj.d -o CMakeFiles/learn_opengl.dir/src/main.cpp.obj -c C:/Users/Fonzy/learn_opengl/src/main.cpp
 
 CMakeFiles/learn_opengl.dir/src/main.cpp.i: cmake_force
@@ -102,18 +117,20 @@ CMakeFiles/learn_opengl.dir/src/main.cpp.s: cmake_force
 # Object files for target learn_opengl
 learn_opengl_OBJECTS = \
 "CMakeFiles/learn_opengl.dir/lib/glad/src/glad.c.obj" \
+"CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj" \
 "CMakeFiles/learn_opengl.dir/src/main.cpp.obj"
 
 # External object files for target learn_opengl
 learn_opengl_EXTERNAL_OBJECTS =
 
 learn_opengl.exe: CMakeFiles/learn_opengl.dir/lib/glad/src/glad.c.obj
+learn_opengl.exe: CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj
 learn_opengl.exe: CMakeFiles/learn_opengl.dir/src/main.cpp.obj
 learn_opengl.exe: CMakeFiles/learn_opengl.dir/build.make
 learn_opengl.exe: glfw-3.4/src/libglfw3.a
 learn_opengl.exe: CMakeFiles/learn_opengl.dir/linkLibs.rsp
 learn_opengl.exe: CMakeFiles/learn_opengl.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable learn_opengl.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Fonzy/learn_opengl/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable learn_opengl.exe"
 	C:/Python312/Lib/site-packages/cmake/data/bin/cmake.exe -E rm -f CMakeFiles/learn_opengl.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/learn_opengl.dir/objects.a @CMakeFiles/learn_opengl.dir/objects1.rsp
 	C:/msys64/mingw64/bin/c++.exe -Wl,--whole-archive CMakeFiles/learn_opengl.dir/objects.a -Wl,--no-whole-archive -o learn_opengl.exe -Wl,--out-implib,liblearn_opengl.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/learn_opengl.dir/linkLibs.rsp

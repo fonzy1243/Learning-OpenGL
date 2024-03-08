@@ -179,6 +179,30 @@ lib/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_opengl.dir/build.make CMakeFiles/learn_opengl.dir/lib/glad/src/glad.c.s
 .PHONY : lib/glad/src/glad.c.s
 
+lib/stb_img_impl.obj: lib/stb_img_impl.cpp.obj
+.PHONY : lib/stb_img_impl.obj
+
+# target to build an object file
+lib/stb_img_impl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_opengl.dir/build.make CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.obj
+.PHONY : lib/stb_img_impl.cpp.obj
+
+lib/stb_img_impl.i: lib/stb_img_impl.cpp.i
+.PHONY : lib/stb_img_impl.i
+
+# target to preprocess a source file
+lib/stb_img_impl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_opengl.dir/build.make CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.i
+.PHONY : lib/stb_img_impl.cpp.i
+
+lib/stb_img_impl.s: lib/stb_img_impl.cpp.s
+.PHONY : lib/stb_img_impl.s
+
+# target to generate assembly for a file
+lib/stb_img_impl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_opengl.dir/build.make CMakeFiles/learn_opengl.dir/lib/stb_img_impl.cpp.s
+.PHONY : lib/stb_img_impl.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -217,6 +241,9 @@ help:
 	@echo "... lib/glad/src/glad.obj"
 	@echo "... lib/glad/src/glad.i"
 	@echo "... lib/glad/src/glad.s"
+	@echo "... lib/stb_img_impl.obj"
+	@echo "... lib/stb_img_impl.i"
+	@echo "... lib/stb_img_impl.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
